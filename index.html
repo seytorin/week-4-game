@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<script src="jquery-3.2.1.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="..\week-4-game\assets\css\style.css">
+ 	<link rel="stylesheet" type="text/css" href="reset.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ </head>
+
+  <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4" id="title">Crystal Collector!</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" id="instructions"><p>You will be given a random number at the start of the game.</p>
+				<p>There are foru crystals below. By clicking on a crystal hyou will add a specific amount of points to your total score.</p>
+				<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3" id="randNum">place holder score</div>
+			<div class="col-md-2">
+				<p id="wins">Wins:</p>
+				<p id="losses">Losses:</p>
+			</div>
+		</div>
+
+		<div class="row crystals" >
+			<div class="col-md-2">
+				<button id="c1"><img src="..\week-4-game\assets\images\c1.png"></button>
+			</div>
+			<div class="col-md-2">
+				<button id="c1"><img src="..\week-4-game\assets\images\c2.png"></button>
+			</div>
+			<div class="col-md-2">
+				<button id="c1"><img src="..\week-4-game\assets\images\c3.png"></button>
+			</div>
+			<div class="col-md-2">
+				<button id="c1"><img src="..\week-4-game\assets\images\c4.png"></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 score" >Your total score is:</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 score" id="scoreCalc"></div>
+		</div>
+
+
+
+	</div>
+  
+
+  </body>
+
+</html>

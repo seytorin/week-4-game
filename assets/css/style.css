@@ -1,0 +1,40 @@
+#title{
+	background-color:#FF5733;
+	color:white;
+}
+
+#instructions{
+background-color:white;
+color:#2ED440;
+}
+
+#randNum{
+	background-color:#12F32A;
+	color:#581845;
+	height:200px;
+	left:17px;
+	padding:0px 10px 0px 0px;
+	font-weight:bold;
+	font-size: x-large;
+}
+
+#wins,
+#losses{
+	padding-left:10px;
+}
+
+.crystals{
+	padding:20px 0px 20px 0px;
+
+
+}
+
+.score{
+
+}
+
+#score{
+	background-color:#138FF1;
+	color:white;
+	height:200px;
+}
