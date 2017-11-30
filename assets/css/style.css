@@ -34,11 +34,27 @@ color:#2ED440;
 	font-size: x-large;
 }
 
-#wins,
-#losses{
+.winLoss{
 	color:white;
+	font-weight: bold;
 	padding-left:10px;
 }
+#wins{
+	color:white;
+	font-weight: bold;
+	padding-left:10px;
+	position:absolute;
+	left:80px;
+}
+#losses{
+	color:white;
+	font-weight: bold;
+	padding-left:10px;
+	position:absolute;
+	left:100px;
+}
+
+
 
 .crystals{
 	padding:20px 0px 20px 0px;
