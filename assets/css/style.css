@@ -1,6 +1,21 @@
+body{
+	background: url('C:/Users/Kimdenning/Documents/week-4-game/assets/images/background.jpg');
+}
 #title{
 	background-color:#FF5733;
 	color:white;
+	height:100px;
+	margin-top:15px;
+	margin-bottom:15px;
+	position:relative;
+}
+#centered{
+position:absolute;
+
+left:50%;
+margin-right:-50%;
+/*transform: translate(-50%, -50%);*/
+
 }
 
 #instructions{
@@ -13,6 +28,7 @@ color:#2ED440;
 	color:#581845;
 	height:200px;
 	left:17px;
+	margin-top: 15px;
 	padding:0px 10px 0px 0px;
 	font-weight:bold;
 	font-size: x-large;
@@ -20,6 +36,7 @@ color:#2ED440;
 
 #wins,
 #losses{
+	color:white;
 	padding-left:10px;
 }
 
@@ -30,10 +47,13 @@ color:#2ED440;
 }
 
 .score{
+	background-color:#138FF1;
+	color:white;
+	margin-bottom: 10px;
 
 }
 
-#score{
+#scoreCalc{
 	background-color:#138FF1;
 	color:white;
 	height:200px;
