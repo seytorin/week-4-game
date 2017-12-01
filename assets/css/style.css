@@ -3,24 +3,27 @@ body{
 }
 #title{
 	background-color:#FF5733;
+	box-shadow:4px 4px rgba(6, 6, 6, .5);
 	color:white;
 	height:100px;
 	margin-top:15px;
 	margin-bottom:15px;
-	position:relative;
+	font-size: xx-large;
 }
 #centered{
 position:absolute;
+position:relative;
+left:15%;
+margin-top:5%;
+text-shadow:3px 3px rgba(6, 6, 6, .5);
 
-left:50%;
-margin-right:-50%;
-/*transform: translate(-50%, -50%);*/
 
 }
 
 #instructions{
 background-color:white;
 color:#2ED440;
+box-shadow:4px 4px rgba(6, 6, 6, .5);
 }
 
 #randNum{
@@ -32,26 +35,39 @@ color:#2ED440;
 	padding:0px 10px 0px 0px;
 	font-weight:bold;
 	font-size: x-large;
+	text-shadow:1.5px 1.5px rgba(6, 6, 6, .3);
+}
+
+.winLossBox{
+	background-color:#0DF2DD;
+	position:relative;
+	left:20px;
+	top:15px;
 }
 
 .winLoss{
+	position:relative;
 	color:white;
 	font-weight: bold;
 	padding-left:10px;
+	left:15px;
+	text-shadow:3px 3px rgba(6, 6, 6, .5);
 }
 #wins{
 	color:white;
 	font-weight: bold;
 	padding-left:10px;
 	position:absolute;
-	left:80px;
+	left:90px;
+	text-shadow:3px 3px rgba(6, 6, 6, .5);
 }
 #losses{
 	color:white;
 	font-weight: bold;
 	padding-left:10px;
 	position:absolute;
-	left:100px;
+	left:110px;
+	text-shadow:3px 3px rgba(6, 6, 6, .5);
 }
 
 
@@ -66,11 +82,85 @@ color:#2ED440;
 	background-color:#138FF1;
 	color:white;
 	margin-bottom: 10px;
+	text-shadow:1.5px 1.5px rgba(6, 6, 6, .3);
 
 }
 
 #scoreCalc{
+	font-weight:bold;
+	font-size:x-large;
 	background-color:#138FF1;
 	color:white;
 	height:200px;
+	text-shadow:1.5px 1.5px rgba(6, 6, 6, .3);
+}
+
+#c1:hover{
+ 
+ 
+  transform: skew(20deg);
+  
+ 
+  animation: shake 4s infinite;
+  animation-direction: altern
+}
+@keyframes shake {
+  0% {
+    transform: skewY(16deg);
+  }
+  100% {
+    transform: skewY(-16deg);
+  }
+}
+
+#c2:hover{
+ 
+ 
+  transform: skew(20deg);
+  
+ 
+  animation: shake 4s infinite;
+  animation-direction: altern
+}
+@keyframes shake {
+  0% {
+    transform: skewY(16deg);
+  }
+  100% {
+    transform: skewY(-16deg);
+  }
+}
+#c3:hover{
+ 
+ 
+  transform: skew(20deg);
+  
+ 
+  animation: shake 4s infinite;
+  animation-direction: altern
+}
+@keyframes shake {
+  0% {
+    transform: skewY(16deg);
+  }
+  100% {
+    transform: skewY(-16deg);
+  }
+}
+#c4:hover{
+ 
+ 
+  transform: skew(20deg);
+  
+ 
+  animation: shake 4s infinite;
+  animation-direction: altern
+}
+@keyframes shake {
+  0% {
+    transform: skewY(16deg);
+  }
+  100% {
+    transform: skewY(-16deg);
+  }
 }
